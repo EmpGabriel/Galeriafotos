@@ -8,7 +8,8 @@
 body {
     min-height: 100vh;
     display: grid;
-    place-content: center;
+    justify-items: center;
+    align-content: center;
     /* background: #f8f6f1; */
     overflow: hidden;
     background-color: #5aa6d8cc;
@@ -31,13 +32,12 @@ body {
 #encabezado-container {
     display: grid;
     place-content: start center;
-    height: 10vh;
     text-align: center;
     overflow: hidden;
 }
 
 #brillo {
-    font-size: 60px;
+    font-size: 2rem;
     font-weight: bold;
     color: rgba(255, 0, 102, 0.3);
     z-index: 10;
@@ -71,7 +71,7 @@ body {
     overflow: hidden;
     display: inline-block;
     white-space: nowrap;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
     font-family: 'Comic Neue', sans-serif;
 }
@@ -96,17 +96,28 @@ body {
     100% { transform: translateX(10%); }
 }
 
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 220px;
+    position: relative;
+}
+
+
 .galeria {
     --d: 20s; 
     display: grid;
     place-items: center;
     width: 220px;
-    margin-left: 220px;
+    height: 220px;
+    position: absolute;
 }
 
 .galeria > img {
     grid-area: 1/1;
-    width: 150%;
+    width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
     border: 10px solid #f2f2f2;
@@ -140,12 +151,14 @@ body {
     90% { z-index: 2; }
 }
 
-@media only screen and (max-width: 600px) {
-    #brillo { font-size: 22px; }
-    
-    .galeria {
-        width: 150px;
-        margin-left: 60px;
-    }
+@media only screen and (min-width: 600px) {
+    #brillo { font-size: 3rem; }
+    #frases { font-size: 1.5rem; }
+    .galeria, .galeria-container { width: 300px; height: 300px; }
+}
+
+@media only screen and (min-width: 1024px) {
+    body { gap: 1rem;}
+    .galeria, .galeria-container { width: 350px; height: 350px; }
 }
 
