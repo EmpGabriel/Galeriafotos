@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
     const frases = [
-        "Bienvenido a mi página web!",
-        "Aquí encontrarás contenido interesante.",
-        "No olvides suscribirte a nuestro boletín.",
-        "Explora nuestros últimos artículos.",
-        "Contáctanos para más información."
+        "Iniciando sesión, por favor espere...",
+        "Proceso de validación en curso....",
+        "Los cambios se han guardado correctamente.",
+        "Error: acceso denegado.",
+        "Actualización de datos completada",
+        "Su solicitud ha sido recibida.",
+        "Cierre de sesión exitoso. Gracias por su visita.",
+        "Por favor, revise los campos obligatorios.",
+        "Conexión establecida con éxito.",
+        "Sesión expirada, vuelve a iniciar sesión.",
     ];
 
     let index = 0;
