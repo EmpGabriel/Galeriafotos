@@ -137,7 +137,7 @@ body {
 .galeria > img:nth-child(3) { animation-delay: calc(-0.2 * var(--d)); --r: -19deg; }
 .galeria > img:nth-child(4) { animation-delay: calc(-0.3 * var(--d)); --r: 6deg; }
 .galeria > img:nth-child(5) { animation-delay: calc(-0.4 * var(--d)); --r: -8deg; }
-.galeria > img:nth-child(6) { animation-delay: calc(-0.5 * var(--d)); --r: 90deg; }
+.galeria > img:nth-child(6) { animation-delay: calc(-0.5 * var(--d)); --r: 9deg; }
 .galeria > img:nth-child(7) { animation-delay: calc(-0.6 * var(--d)); --r: -14deg; }
 .galeria > img:nth-child(8) { animation-delay: calc(-0.7 * var(--d)); --r: 3deg; }
 .galeria > img:nth-child(9) { animation-delay: calc(-0.8 * var(--d)); --r: -12deg; }
