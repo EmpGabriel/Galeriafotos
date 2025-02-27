@@ -1,17 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
     const frases = [
-        "Iniciando sesión, por favor espere...",
-        "Proceso de validación en curso....",
-        "Los cambios se han guardado correctamente.",
-        "Error: acceso denegado.",
-        "Actualización de datos completada",
-        "Su solicitud ha sido recibida.",
-        "Cierre de sesión exitoso. Gracias por su visita.",
-        "Por favor, revise los campos obligatorios.",
-        "Conexión establecida con éxito.",
-        "Sesión expirada, vuelve a iniciar sesión.",
+        "¡Hoy 🥳🎉 lo maravillosa que eres!",
+        "Tu felicidad es mi mayor deseo.",
+        "¡Amarte es mi aventura favorita!",
+        "¡La ✈️ no puede apagar mi 💞 por ti!",
+        "Te llevo en mi ❤️ sin importar la ✈️.",
+        "Te ❤️ más de lo que imaginas.",
+        "Hoy y 100pre serás el amor de mi vida.",
+        "Te AMO mi M.D.O. 🍎💛",
+        "100pre serás mi compañera de locuras.🤪",
+        "100pre serás mi princesa.👑",
     ];
-
+    
     let index = 0;
     const frasesDiv = document.getElementById("frases");
 
