@@ -3,13 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
         "¡Hoy 🥳🎉 lo maravillosa que eres!",
         "Tu felicidad es mi mayor deseo.",
         "¡Amarte es mi aventura favorita!",
-        "¡La ✈️ no puede apagar mi 💞 por ti!",
+        "¡Ni el tiempo ⏰ ni la distancia ✈️",
+        "podrán detener mi amor 💞 por ti!",
         "Te llevo en mi ❤️ sin importar la ✈️.",
-        "Te ❤️ más de lo que imaginas.",
+        "Te amo ❤️ más de lo que imaginas.",
         "Hoy y 100pre serás el amor de mi vida.",
-        "Te AMO mi M.D.O. 🍎💛",
         "100pre serás mi compañera de locuras.🤪",
         "100pre serás mi princesa.👑",
+        "100pre serás mi amor.💞",
+        "100pre serás mi M.D.O.🍎💛 TE AMO!",
     ];
     
     let index = 0;
